@@ -8,6 +8,26 @@
       "expo-router"
     ],
     "name": "jobs-app",
-    "slug": "jobs-app"
+    "slug": "jobs-app",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "jobsApp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.mahmoud_saber2001.jobsapp"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "aabf139f-9535-4e52-82e3-086c44d49635"
+      }
+    }
   }
 }
